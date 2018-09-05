@@ -1,0 +1,8 @@
+Author: Ningfei Wang
+Email: niw217@lehigh.edu
+
+The 'pdf' file is the solutions.
+
+There are two '.m' file, which is the Matlab source code. 
+
+You can run hw1.m and get the result. The 'fun_cvx.m' is a function, which I define a function to do least-square regression and return some parameters and mse. Also, it is called by 'hw1.m'
