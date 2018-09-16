@@ -1,0 +1,12 @@
+Author: Ningfei Wang (niw217)
+Email: niw217@lehigh.edu
+
+Environment: Sunlab (GCC 5.4.0)
+
+In './src', all the source codes are in this file, including bank model and python.
+
+For plot, I use Python and its library 'matplotlib' to draw a figure with average time and std. The test parameters are 'key_max = 50, tiers - 20, threads = "1,2,4,8"'. Based on the plot, we can see that larger threads number, more time is needed. That's because using locks and the execution methods.
+
+For the bank model, you can type 'make' to compile it. The exe files are in './src/obj32', which compiled from SunLab. For the design, I use a global lock to lock the deposit and balance, which verify the result is correct. 
+
+If you have any questions, feel free to contact with me. Thank you so much!
